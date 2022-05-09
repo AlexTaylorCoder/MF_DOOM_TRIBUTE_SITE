@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1 {
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    color: rgb(112, 110, 110);
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+}
+p {
+    color: rgb(34, 34, 34);
+    padding: 5vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 50px;
+    font-size: 18px;
+}
+h1:hover {
+    font-size: 36px;
+}
+h2:hover{
+    font-size: 26px;
+}
+h3 {
+    margin-left: 5vh;
+}
+h3:hover {
+    color:white;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+}
+img {
+    width: auto;
+    height: 100%
+}
+nav .container {
+    height: 10vh;
+}
+.container {
+    height: 60vh;
+}
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 3vh;
+    opacity: .1;
+}
+nav:hover {
+    background: rgb(128, 128, 128);
+    opacity: .8;
+}
+header h2 {
+    letter-spacing: 2px;
+}
+#about {
+    margin-top: 15vh;
+    background: lightgray
+}
+
+#career h1{
+    color: rgb(71, 71, 71);
+}
+#disc {
+    background: lightgray;
+    margin-top: 15vh;
+}
+#disc .container {
+    display: inline-block;
+    margin: 10px;
+    height: 30vh;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.15), 
+    0px 4px 8px rgba(0,0,0,0.15), 
+    0px 8px 16px rgba(0,0,0,0.15), 
+    0px 16px 32px rgba(0,0,0,0.15);
+    transform: translateY(5px);
+}
+#disc .container:hover {
+    cursor: pointer;
+    height: 35vh;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.15), 
+    0px 4px 8px rgba(255,255,255,0.15), 
+    0px 8px 16px rgba(255,255,255,0.15), 
+    0px 16px 32px rgba(255,255,255,0.15);
+}
+#disc .container:active {
+    opacity: .2;
+}
+#disc .container img {
+    background-color: black;
+}
+@media (max-width: 1200px) {
+    p {
+        padding: 2vh;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        font-size: larger;
+    }
+    h1 {
+        margin-bottom: 1px;
+    }
+    nav h3{
+        margin-left: 2vh;
+    }
+    #disc {
+        margin-top: 5vh;
+    }
+    #about {
+        padding-bottom: 4vh;
+    }
+}
